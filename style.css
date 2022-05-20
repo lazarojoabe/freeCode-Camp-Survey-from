@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(img/pexels-ithalu-dominguez-907485.jpg);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.829);
+
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.904);
+}
+header p{
+    text-align: center;
+    color: rgb(224, 223, 223);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.368);
+}
+main{
+    font-size: 1em;
+}
+.container{
+    height: 100%;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+fieldset{
+    border: 0;
+}
+.field{
+    height: 2em;
+    border: 1px solid #252544;
+    border-radius: 6px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.special-group{
+    padding: 0 20px;
+}
+textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+#current-role{
+    font-family: 'Poppins', sans-serif;
+}
+#favorite-feature{
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 0;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+    height: 8vh;
+    width: 95%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    background-color: #37AF65;
+    outline-style: none;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    cursor: pointer;
+}

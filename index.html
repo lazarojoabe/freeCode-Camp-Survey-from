@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p><em>Thank you for taking the time to help us to improve the plataform</em></p>
+    </header>
+    <main>
+            <form id="form" action="" autocomplete="on" class="container">
+                    <fieldset >
+                        <section class="group">
+                            <label for="name">Name</label>
+                            <input class="field" type="text" name="name" id="name" placeholder="  Enter your name" required><br>
+                        </section>
+                        <section class="group">
+                            <label for="email">Email</label>
+                                <input class="field" type="email" name="email" id="email" placeholder="  Enter your Email" required><br>
+                        </section>
+                        <section class="group">
+                            <label for="age">Age(optional)</label>
+                                <input class="field" type="text" name="age" id="age" placeholder="  Age"><br>
+                        </section>
+                    </fieldset>
+                    <section class="group">
+                        <label for="">Which option best describes your current role?</label>
+                        <select class="field" name="current-role" id="current-role">
+                        <option selected disabled value="">Select your current role</option>
+                        <option value="tudent">Student</option>
+                        <option value="full-time-job">Full Time Job</option>
+                        <option value="full-time-learner">Full Time Learner</option>
+                        <option value="prfer-not-to-say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                        </select> <br>
+                    </section>
+                    <section class="special-group">
+                        <label for="share">Would you recommend freeCodeCamp to a friend?</label><br>
+                        <input class="recommend-choices" type="radio" name="share" id="definitely"> Definitely<br>
+                        <input class="recommend-choices" type="radio" name="share" id="maybe"> Maybe<br>
+                        <input class="recommend-choices" type="radio" name="share" id="not-sure"> Not sure<br>
+                    </section><br>
+                    <section class="group">
+                        <label for="">What is your favorite feature of freeCodeCamp?</label>
+                        <select name="favorite-feature" id="favorite-feature">
+                            <option selected disabled value="">Select an option</option>
+                            <option value="">Challenges</option>
+                            <option value="">Projects</option>
+                            <option value="">Community</option>
+                            <option value="">Open Source</option>
+                        </select><br>
+                    </section>
+                    <section class="special-group">
+                        <label for="">What would you like to see improved? <small>(Check all that apply)</small></label><br>
+                        <input type="checkbox">Front-end Projects <br>
+                        <input type="checkbox">Back-end Projects <br>
+                        <input type="checkbox">Data Visualization <br>
+                        <input type="checkbox">Challenges <br>
+                        <input type="checkbox">Open Source Community <br>
+                        <input type="checkbox">Gitter help room <br>
+                        <input type="checkbox">Videos <br>
+                        <input type="checkbox">City Meetups <br>
+                        <input type="checkbox">Wiki <br>
+                        <input type="checkbox">Forum <br>
+                        <input type="checkbox">Additional Courses
+                    </section><br>
+                    <fieldset>
+                        <section class="group">
+                            <label for="comments-or-suggestions">Any comments or suggestions?</label>
+                            <textarea name="comments-or-suggestions" id="textarea" cols="4" rows="6" placeholder="Enter your comment here..."></textarea>
+                        </section>
+                    </fieldset>
+                    <button form="form" class="group" type="submit" id="submit" name="submit" autofocus>Submit</button>
+            </form>
+    </main>
+</body>
+</html>
